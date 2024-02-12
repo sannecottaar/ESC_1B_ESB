@@ -1,0 +1,1035 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/cmtsolution/catalog/a56e0d9f-76fc-4cd7-918e-fe494b718a53">
+    <event publicID="smi:local/cmtsolution/083196E/event">
+      <preferredOriginID>smi:local/cmtsolution/083196E/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/083196E/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/083196E/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>083196E</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/083196E/origin#cmt">
+        <time>
+          <value>1996-08-31T20:47:24.100000Z</value>
+        </time>
+        <latitude>
+          <value>51.47</value>
+        </latitude>
+        <longitude>
+          <value>-178.07</value>
+        </longitude>
+        <depth>
+          <value>47000.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>ANDREANOF ISLANDS, ALEUTIAN IS.</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/083196E/origin#prelim">
+        <time>
+          <value>1996-08-31T20:47:21.000000Z</value>
+        </time>
+        <latitude>
+          <value>51.49</value>
+        </latitude>
+        <longitude>
+          <value>-178.22</value>
+        </longitude>
+        <depth>
+          <value>44000.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>ANDREANOF ISLANDS, ALEUTIAN IS.</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/083196E/magnitude#mw">
+        <mag>
+          <value>5.48</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/083196E/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/083196E/magnitude#prelim_bw">
+        <mag>
+          <value>5.6</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/083196E/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/083196E/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/083196E/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/083196E/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/083196E/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/083196E/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/083196E/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/083196E/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>2.1147276420380944e+17</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>1.55e+17</value>
+            </Mrr>
+            <Mtt>
+              <value>3.55e+16</value>
+            </Mtt>
+            <Mpp>
+              <value>-1.905e+17</value>
+            </Mpp>
+            <Mrt>
+              <value>-6.4e+16</value>
+            </Mrt>
+            <Mrp>
+              <value>-9.23e+16</value>
+            </Mrp>
+            <Mtp>
+              <value>-3.63e+16</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>2.8</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/061797F/event">
+      <preferredOriginID>smi:local/cmtsolution/061797F/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/061797F/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/061797F/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>061797F</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/061797F/origin#cmt">
+        <time>
+          <value>1997-06-17T21:03:44.700000Z</value>
+        </time>
+        <latitude>
+          <value>51.31</value>
+        </latitude>
+        <longitude>
+          <value>-179.2</value>
+        </longitude>
+        <depth>
+          <value>28000.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>ANDREANOF ISLANDS, ALEUTIAN IS.</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/061797F/origin#prelim">
+        <time>
+          <value>1997-06-17T21:03:40.200000Z</value>
+        </time>
+        <latitude>
+          <value>51.35</value>
+        </latitude>
+        <longitude>
+          <value>-179.33</value>
+        </longitude>
+        <depth>
+          <value>33000.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>ANDREANOF ISLANDS, ALEUTIAN IS.</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/061797F/magnitude#mw">
+        <mag>
+          <value>6.36</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/061797F/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/061797F/magnitude#prelim_bw">
+        <mag>
+          <value>6.4</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/061797F/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/061797F/magnitude#prelim_sw">
+        <mag>
+          <value>6.3</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/061797F/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/061797F/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/061797F/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/061797F/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/061797F/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/061797F/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>4.406505928737642e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>-1.643e+18</value>
+            </Mrr>
+            <Mtt>
+              <value>-2.28e+17</value>
+            </Mtt>
+            <Mpp>
+              <value>1.87e+18</value>
+            </Mpp>
+            <Mrt>
+              <value>-1.74e+17</value>
+            </Mrt>
+            <Mrp>
+              <value>3.976e+18</value>
+            </Mrp>
+            <Mtp>
+              <value>-6.74e+17</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>7.4</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/100597E/event">
+      <preferredOriginID>smi:local/cmtsolution/100597E/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/100597E/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/100597E/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>100597E</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/100597E/origin#cmt">
+        <time>
+          <value>1997-10-05T18:04:38.100000Z</value>
+        </time>
+        <latitude>
+          <value>-59.9</value>
+        </latitude>
+        <longitude>
+          <value>-28.92</value>
+        </longitude>
+        <depth>
+          <value>284500.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/100597E/origin#prelim">
+        <time>
+          <value>1997-10-05T18:04:30.000000Z</value>
+        </time>
+        <latitude>
+          <value>-59.74</value>
+        </latitude>
+        <longitude>
+          <value>-29.2</value>
+        </longitude>
+        <depth>
+          <value>273900.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/100597E/magnitude#mw">
+        <mag>
+          <value>6.29</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/100597E/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/100597E/magnitude#prelim_bw">
+        <mag>
+          <value>6.0</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/100597E/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/100597E/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/100597E/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/100597E/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/100597E/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/100597E/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/100597E/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/100597E/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>3.4724541753635855e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>-3.481e+18</value>
+            </Mrr>
+            <Mtt>
+              <value>1.0199999999999999e+18</value>
+            </Mtt>
+            <Mpp>
+              <value>2.461e+18</value>
+            </Mpp>
+            <Mrt>
+              <value>-1.236e+18</value>
+            </Mrt>
+            <Mrp>
+              <value>8.85e+17</value>
+            </Mrp>
+            <Mtp>
+              <value>-3.74e+17</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>6.8</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/121197C/event">
+      <preferredOriginID>smi:local/cmtsolution/121197C/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/121197C/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/121197C/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>121197C</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/121197C/origin#cmt">
+        <time>
+          <value>1997-12-11T07:56:35.800000Z</value>
+        </time>
+        <latitude>
+          <value>4.11</value>
+        </latitude>
+        <longitude>
+          <value>-75.84</value>
+        </longitude>
+        <depth>
+          <value>189500.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>COLOMBIA</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/121197C/origin#prelim">
+        <time>
+          <value>1997-12-11T07:56:28.900000Z</value>
+        </time>
+        <latitude>
+          <value>3.93</value>
+        </latitude>
+        <longitude>
+          <value>-75.79</value>
+        </longitude>
+        <depth>
+          <value>177500.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>COLOMBIA</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/121197C/magnitude#mw">
+        <mag>
+          <value>6.34</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/121197C/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/121197C/magnitude#prelim_bw">
+        <mag>
+          <value>6.0</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/121197C/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/121197C/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/121197C/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/121197C/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/121197C/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/121197C/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/121197C/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/121197C/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>4.021733084131766e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>2.0139999999999997e+18</value>
+            </Mrr>
+            <Mtt>
+              <value>-3.614e+18</value>
+            </Mtt>
+            <Mpp>
+              <value>1.6e+18</value>
+            </Mpp>
+            <Mrt>
+              <value>2.54e+17</value>
+            </Mrt>
+            <Mrp>
+              <value>-2.012e+18</value>
+            </Mrp>
+            <Mtp>
+              <value>1.491e+18</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>7.4</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/090398F/event">
+      <preferredOriginID>smi:local/cmtsolution/090398F/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/090398F/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/090398F/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>090398F</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/090398F/origin#cmt">
+        <time>
+          <value>1998-09-03T17:38:05.200000Z</value>
+        </time>
+        <latitude>
+          <value>-29.56</value>
+        </latitude>
+        <longitude>
+          <value>-71.97</value>
+        </longitude>
+        <depth>
+          <value>34000.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>NEAR COAST OF CENTRAL CHILE</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/090398F/origin#prelim">
+        <time>
+          <value>1998-09-03T17:37:58.200000Z</value>
+        </time>
+        <latitude>
+          <value>-29.45</value>
+        </latitude>
+        <longitude>
+          <value>-71.71</value>
+        </longitude>
+        <depth>
+          <value>27000.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>NEAR COAST OF CENTRAL CHILE</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/090398F/magnitude#mw">
+        <mag>
+          <value>6.52</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/090398F/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/090398F/magnitude#prelim_bw">
+        <mag>
+          <value>6.2</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/090398F/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/090398F/magnitude#prelim_sw">
+        <mag>
+          <value>6.6</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/090398F/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/090398F/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/090398F/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/090398F/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/090398F/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/090398F/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>7.711880477548909e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>3.39e+18</value>
+            </Mrr>
+            <Mtt>
+              <value>9.01e+17</value>
+            </Mtt>
+            <Mpp>
+              <value>-4.292e+18</value>
+            </Mpp>
+            <Mrt>
+              <value>-2.587e+18</value>
+            </Mrt>
+            <Mrp>
+              <value>-6.107e+18</value>
+            </Mrp>
+            <Mtp>
+              <value>3.5e+17</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>9.0</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/030902A/event">
+      <preferredOriginID>smi:local/cmtsolution/030902A/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/030902A/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/030902A/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>030902A</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/030902A/origin#cmt">
+        <time>
+          <value>2002-03-09T12:27:17.100000Z</value>
+        </time>
+        <latitude>
+          <value>-56.0</value>
+        </latitude>
+        <longitude>
+          <value>-27.3</value>
+        </longitude>
+        <depth>
+          <value>127900.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/030902A/origin#prelim">
+        <time>
+          <value>2002-03-09T12:27:11.200000Z</value>
+        </time>
+        <latitude>
+          <value>-56.02</value>
+        </latitude>
+        <longitude>
+          <value>-27.33</value>
+        </longitude>
+        <depth>
+          <value>118400.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/030902A/magnitude#mw">
+        <mag>
+          <value>5.97</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/030902A/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/030902A/magnitude#prelim_bw">
+        <mag>
+          <value>5.8</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/030902A/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/030902A/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/030902A/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/030902A/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/030902A/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/030902A/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/030902A/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/030902A/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>1.1269784913652968e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>4.129e+17</value>
+            </Mrr>
+            <Mtt>
+              <value>-4.121e+17</value>
+            </Mtt>
+            <Mpp>
+              <value>-800000000000000.0</value>
+            </Mpp>
+            <Mrt>
+              <value>-4.997e+17</value>
+            </Mrt>
+            <Mrp>
+              <value>-3.783e+17</value>
+            </Mrp>
+            <Mtp>
+              <value>8.409e+17</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>4.6</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/100302D/event">
+      <preferredOriginID>smi:local/cmtsolution/100302D/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/100302D/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/100302D/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>100302D</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/100302D/origin#cmt">
+        <time>
+          <value>2002-10-03T19:05:14.500000Z</value>
+        </time>
+        <latitude>
+          <value>-7.59</value>
+        </latitude>
+        <longitude>
+          <value>115.71</value>
+        </longitude>
+        <depth>
+          <value>316700.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>BALI SEA</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/100302D/origin#prelim">
+        <time>
+          <value>2002-10-03T19:05:10.700000Z</value>
+        </time>
+        <latitude>
+          <value>-7.53</value>
+        </latitude>
+        <longitude>
+          <value>115.66</value>
+        </longitude>
+        <depth>
+          <value>315800.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>BALI SEA</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/100302D/magnitude#mw">
+        <mag>
+          <value>5.97</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/100302D/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/100302D/magnitude#prelim_bw">
+        <mag>
+          <value>6.0</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/100302D/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/100302D/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/100302D/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/100302D/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/100302D/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/100302D/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/100302D/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/100302D/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>1.118041450483836e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>5.7059999999999994e+17</value>
+            </Mrr>
+            <Mtt>
+              <value>-5.552e+17</value>
+            </Mtt>
+            <Mpp>
+              <value>-1.5499999999999998e+16</value>
+            </Mpp>
+            <Mrt>
+              <value>8.031e+17</value>
+            </Mrt>
+            <Mrp>
+              <value>2.37e+17</value>
+            </Mrp>
+            <Mtp>
+              <value>4.815e+17</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>4.6</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/111202B/event">
+      <preferredOriginID>smi:local/cmtsolution/111202B/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/111202B/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/111202B/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>111202B</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/111202B/origin#cmt">
+        <time>
+          <value>2002-11-12T01:46:54.400000Z</value>
+        </time>
+        <latitude>
+          <value>-56.49</value>
+        </latitude>
+        <longitude>
+          <value>-26.89</value>
+        </longitude>
+        <depth>
+          <value>116300.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/111202B/origin#prelim">
+        <time>
+          <value>2002-11-12T01:46:48.900000Z</value>
+        </time>
+        <latitude>
+          <value>-56.55</value>
+        </latitude>
+        <longitude>
+          <value>-27.54</value>
+        </longitude>
+        <depth>
+          <value>120000.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/111202B/magnitude#mw">
+        <mag>
+          <value>6.2</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/111202B/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/111202B/magnitude#prelim_bw">
+        <mag>
+          <value>6.0</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/111202B/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/111202B/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/111202B/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/111202B/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/111202B/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/111202B/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/111202B/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/111202B/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>2.5294224637256627e+18</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>2.272e+18</value>
+            </Mrr>
+            <Mtt>
+              <value>-8.12e+17</value>
+            </Mtt>
+            <Mpp>
+              <value>-1.46e+18</value>
+            </Mpp>
+            <Mrt>
+              <value>-1.0809999999999999e+18</value>
+            </Mrt>
+            <Mrp>
+              <value>7.08e+17</value>
+            </Mrp>
+            <Mtp>
+              <value>8.67e+17</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>6.4</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/100804D/event">
+      <preferredOriginID>smi:local/cmtsolution/100804D/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/100804D/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/100804D/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>100804D</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/100804D/origin#cmt">
+        <time>
+          <value>2004-10-08T15:28:43.260000Z</value>
+        </time>
+        <latitude>
+          <value>-56.54</value>
+        </latitude>
+        <longitude>
+          <value>-26.76</value>
+        </longitude>
+        <depth>
+          <value>96900.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/100804D/origin#prelim">
+        <time>
+          <value>2004-10-08T15:28:39.200000Z</value>
+        </time>
+        <latitude>
+          <value>-56.53</value>
+        </latitude>
+        <longitude>
+          <value>-26.87</value>
+        </longitude>
+        <depth>
+          <value>101500.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>SOUTH SANDWICH ISLANDS REGION</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/100804D/magnitude#mw">
+        <mag>
+          <value>5.79</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/100804D/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/100804D/magnitude#prelim_bw">
+        <mag>
+          <value>5.6</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/100804D/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/100804D/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/100804D/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/100804D/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/100804D/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/100804D/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/100804D/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/100804D/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>6.065666080489428e+17</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>-3.17e+17</value>
+            </Mrr>
+            <Mtt>
+              <value>6.37e+17</value>
+            </Mtt>
+            <Mpp>
+              <value>-3.2e+17</value>
+            </Mpp>
+            <Mrt>
+              <value>-4.38e+16</value>
+            </Mrt>
+            <Mrp>
+              <value>-2.4799999999999997e+17</value>
+            </Mrp>
+            <Mtp>
+              <value>1.31e+16</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>3.8</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+    <event publicID="smi:local/cmtsolution/200601180352A/event">
+      <preferredOriginID>smi:local/cmtsolution/200601180352A/origin#cmt</preferredOriginID>
+      <preferredMagnitudeID>smi:local/cmtsolution/200601180352A/magnitude#mw</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/cmtsolution/200601180352A/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <description>
+        <text>200601180352A</text>
+        <type>earthquake name</type>
+      </description>
+      <comment>
+        <text>Hypocenter catalog: PDEW</text>
+      </comment>
+      <origin publicID="smi:local/cmtsolution/200601180352A/origin#cmt">
+        <time>
+          <value>2006-01-18T03:52:52.260000Z</value>
+        </time>
+        <latitude>
+          <value>21.47</value>
+        </latitude>
+        <longitude>
+          <value>144.54</value>
+        </longitude>
+        <depth>
+          <value>131210.0</value>
+        </depth>
+        <type>centroid</type>
+        <region>MARIANA ISLANDS REGION</region>
+      </origin>
+      <origin publicID="smi:local/cmtsolution/200601180352A/origin#prelim">
+        <time>
+          <value>2006-01-18T03:52:51.600000Z</value>
+        </time>
+        <latitude>
+          <value>21.4</value>
+        </latitude>
+        <longitude>
+          <value>144.19</value>
+        </longitude>
+        <depth>
+          <value>139200.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <region>MARIANA ISLANDS REGION</region>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </origin>
+      <magnitude publicID="smi:local/cmtsolution/200601180352A/magnitude#mw">
+        <mag>
+          <value>5.38</value>
+        </mag>
+        <type>mw</type>
+        <originID>smi:local/cmtsolution/200601180352A/origin#cmt</originID>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/200601180352A/magnitude#prelim_bw">
+        <mag>
+          <value>5.6</value>
+        </mag>
+        <type>Mb</type>
+        <originID>smi:local/cmtsolution/200601180352A/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <magnitude publicID="smi:local/cmtsolution/200601180352A/magnitude#prelim_sw">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>MS</type>
+        <originID>smi:local/cmtsolution/200601180352A/origin#prelim</originID>
+        <evaluationStatus>preliminary</evaluationStatus>
+      </magnitude>
+      <focalMechanism publicID="smi:local/cmtsolution/200601180352A/focal_mechanism">
+        <triggeringOriginID>smi:local/cmtsolution/200601180352A/origin#prelim</triggeringOriginID>
+        <momentTensor publicID="smi:local/cmtsolution/200601180352A/moment_tensor">
+          <derivedOriginID>smi:local/cmtsolution/200601180352A/origin#cmt</derivedOriginID>
+          <momentMagnitudeID>smi:local/cmtsolution/200601180352A/magnitude#mw</momentMagnitudeID>
+          <scalarMoment>
+            <value>1.5006545726448874e+17</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>-1.15e+17</value>
+            </Mrr>
+            <Mtt>
+              <value>8.15e+16</value>
+            </Mtt>
+            <Mpp>
+              <value>3.3899999999999996e+16</value>
+            </Mpp>
+            <Mrt>
+              <value>-7.320001e+16</value>
+            </Mrt>
+            <Mrp>
+              <value>1.54e+16</value>
+            </Mrp>
+            <Mtp>
+              <value>8.01e+16</value>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>2.4</duration>
+          </sourceTimeFunction>
+        </momentTensor>
+      </focalMechanism>
+    </event>
+  </eventParameters>
+</q:quakeml>
