@@ -6,7 +6,7 @@ The practicals in this course will be in jupyter notebook, which combines code a
 
 Step 1: Installing Anaconda
 
-Anaconda helps distribute software packages across different platforms. Follow the instructions for installation for your specific platform here. This already installs Python and Jupyter Notebook. Anaconda has a graphical interface to install packages, this document will however give command line comments.
+[Anaconda](https://anaconda.org) helps distribute software packages across different platforms. Follow the instructions for installation for your specific platform here. This already installs Python and Jupyter Notebook. Anaconda has a graphical interface to install packages, this document will however give command line comments.
 
 Step 2: Install required packages
 
@@ -16,7 +16,7 @@ Install git to access github:
 
 conda install -c anaconda git
 
-Install ObsPy
+Install [ObsPy](https://github.com/obspy/obspy/wiki/)
 
 conda install -c conda-forge obspy
 
